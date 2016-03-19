@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/turingou/player.git"
+    "url": "https://github.com/PlayControl/playcontrol-player.git"
   },
   "keywords": [
     "mp3",
@@ -22,7 +22,7 @@
   "author": "Phil Kunz <office@philkunz.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/playcontrol/playcontrol-player/issues"
+    "url": "https://github.com/PlayControl/playcontrol-player/issues"
   },
   "dependencies": {
     "aac": "^0.1.2",
