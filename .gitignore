@@ -1,0 +1,13 @@
+.idea/
+docs/
+coverage/
+test/test-audiofiles/
+test/browser/browserified/
+ts/*.js
+ts/*.js.map
+ts/typings/
+node_modules
+.DS_*
+npm-debug.*
+*.sublime*
+thumb

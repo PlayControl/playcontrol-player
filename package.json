@@ -1,0 +1,44 @@
+{
+  "name": "playcontrol-player",
+  "version": "1.0.0",
+  "description": "nodejs player module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "(npmts)",
+    "testbrowser": "(npmts --browser)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turingou/player.git"
+  },
+  "keywords": [
+    "mp3",
+    "flac",
+    "cli",
+    "audio",
+    "player",
+    "cli player"
+  ],
+  "author": "Phil Kunz <office@philkunz.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/playcontrol/playcontrol-player/issues"
+  },
+  "dependencies": {
+    "aac": "^0.1.2",
+    "alac": "^0.1.0",
+    "async": "2.0.0-rc.1",
+    "av": "0.4.8",
+    "beautylog": "^3.1.2",
+    "flac.js": "0.2.1",
+    "gulp": "3.9.1",
+    "mp3": "^0.1.0",
+    "musicmetadata": "2.0.2",
+    "ogg.js": "^0.1.0",
+    "path-parse": "^1.0.5",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "npmts": "^3.5.0"
+  }
+}
