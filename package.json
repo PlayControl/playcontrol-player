@@ -5,7 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "(npmts)",
-    "testbrowser": "(npmts --browser)"
+    "testbrowser": "(npmts --browser)",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -31,14 +33,16 @@
     "av": "0.4.8",
     "beautylog": "^3.1.2",
     "flac.js": "0.2.1",
-    "gulp": "3.9.1",
+    "gulp": "4.0.0",
     "mp3": "^0.1.0",
     "musicmetadata": "2.0.2",
     "ogg.js": "^0.1.0",
     "path-parse": "^1.0.5",
-    "q": "^1.4.1"
+    "q": "^1.4.1",
+    "snyk": "^1.70.2"
   },
   "devDependencies": {
     "npmts": "^3.5.0"
-  }
+  },
+  "snyk": true
 }
